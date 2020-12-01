@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <h1 class="center_header">Search Page for Movie Review Descriptions</h1>
+    <img src="../static/ny-times-logo.jpg" alt="nyt" width="300" height="100">
+    <img src="../static/moviereel.jpg" alt="mr" width="150" height="100">
+    <div class="search_form_style">
+        <form method="POST" action="{{url_for('search')}}">
+{#            {{form.csrf}}#}
+{#            {{form.hidden_tag()}}#}
+
+            <label>Enter a movie title (Ex. Harry Potter):</label><br>
+            {{form.title}}
+
+            <br>
+
+            <label>Order By (Must select a choice):</label><br>
+            {{form.order}}
+            <br><br>
+            <label>Select filter:</label><br>
+            {{form.critics_picks}}
+            <br><br>
+
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+</body>
+</html>

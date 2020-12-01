@@ -1,0 +1,42 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2020 The New York Times Company. All Rights Reserved.",
+  "has_more": false,
+  "num_results": 2,
+  "results": [
+    {
+      "display_title": "Harry Potter and the Deathly Hallows: Part 2",
+      "mpaa_rating": "PG-13",
+      "critics_pick": 1,
+      "byline": "MANOHLA DARGIS",
+      "headline": "Class Dismissed",
+      "summary_short": "Childhood ends with tears and howls and swirls of smoke, the shock of mortality and bittersweet smiles in the grave, deeply satisfying final movie in the \u201cHarry Potter\u201d series.",
+      "publication_date": "2011-07-13",
+      "opening_date": "2011-07-15",
+      "date_updated": "2017-11-02 04:18:13",
+      "link": {
+        "type": "article",
+        "url": "http://www.nytimes.com/2011/07/15/movies/harry-potter-and-the-deathly-hallows-part-2-review.html",
+        "suggested_link_text": "Read the New York Times Review of Harry Potter and the Deathly Hallows: Part 2"
+      },
+      "multimedia": null
+    },
+    {
+      "display_title": "Harry Potter and the Deathly Hallows: Part 1",
+      "mpaa_rating": "PG-13",
+      "critics_pick": 1,
+      "byline": "A. O. SCOTT",
+      "headline": "Time for Young Wizards to Put Away Childish Things",
+      "summary_short": "There is an especially somber and scary coloration to this installment, as Harry Potter faces a perilous grown-up world.",
+      "publication_date": "2010-11-18",
+      "opening_date": "2010-11-19",
+      "date_updated": "2017-11-02 04:18:12",
+      "link": {
+        "type": "article",
+        "url": "http://www.nytimes.com/2010/11/19/movies/19harry.html",
+        "suggested_link_text": "Read the New York Times Review of Harry Potter and the Deathly Hallows: Part 1"
+      },
+      "multimedia": null
+    }
+  ]
+}

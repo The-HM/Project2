@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <h1>Results Page</h1>
+    <table border="1">
+
+        {% for i in result['results'] %}
+                <tr>
+                    {% if order == "br" %}
+                    <td>{{ i ['display_title']}}</td>
+                    <td>{{ i['mpaa_rating'] }}</td>
+                    <td>{{ i['summary_short'] }}</td>
+                    {% elif order == "bh" %}
+                    <td>{{ i['display_title'] }}</td>
+                    <td>{{ i['headline'] }}</td>
+                    <td>{{ i['summary_short'] }}</td>
+                    {% elif order == "bpd" %}
+                    <td>{{ i['display_title'] }}</td>
+                    <td>{{ i['publication_date'] }}</td>
+                    <td>{{ i['summary_short'] }}</td>
+                    {% endif %}
+                </tr>
+        {% endfor %}
+
+    </table>
+<a href="{{url_for('search')}}">Click here to go back to the main page</a>
+</body>
+</html>
